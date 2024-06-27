@@ -1,0 +1,32 @@
+
+[tool.pdm]
+distribution = false
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[project]
+name = "Livraria-django"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "jonatasperaza", email = "jonatassilvaperaza@gmail.com"},
+]
+dependencies = [
+    "django>=5.0.6",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
