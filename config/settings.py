@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     "rest_framework_simplejwt",
+    'usuario'
 ]
 
 MIDDLEWARE = [
@@ -117,6 +118,7 @@ SIMPLE_JWT = {
     'UPDATE_LAST_LOGIN': True,  
 }
 
+AUTH_USER_MODEL = "usuario.Usuario"
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
